@@ -1,0 +1,23 @@
+Version: 1.0, 19 September 2016
+- initial version
+
+Version: 1.1, 29 September 2016
+- enabling different benchmark classes
+- selection with or without outliers
+- polygon selection
+
+Version: 1.1.1, 7 October 2016
+- better handling of nan values in region of interest check (avoiding warning)
+
+Version: 1.1.2, 9 October 2016
+- bug fix in case SD observations of a single epoch are selected (and therefore no DD can be formed)
+
+Version: 1.1.3, 4 November 2016
+- bug fix in indexing
+
+Version: 1.1.4, 14 February 2017
+- implementation of unique benchmark list (for combined levelling/gps data)
+- detection and removal of dependent DD observations
+- removal of maximum number of allowed iteration in SD to DD transformation
+- format change of dates in default cupido.py settings
+

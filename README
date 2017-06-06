@@ -1,0 +1,29 @@
+CUPiDO - Connecting Undifferenced Points in Deformation Observations
+
+The CUPiDO software enables a standardized approach for the analysis
+and preparation of geodetic data for the use in geophysi-
+cal modeling. The approach resolves the problem of non-
+uniformity in the datasets obtained by different measurement
+techniques. 
+
+The approach is based on two main steps: uniformization
+of the data using a standardized data format (NetCDF), and
+the application of the CUPiDO conversion tool to construct
+double-difference observations.
+
+The CUPiDO software is structured in three directories:
+
+    create_netcdf
+        scripts to generate the standardized NetCDF data files
+        (currently in Matlab only).
+
+    create_double_differences
+        conversion tool to generate an optimal set of double 
+        differences based on the NetCDF data files (in Python2).
+
+    example
+        An example setup to demonstrate the CUPiDO software.
+
+
+(c) Delft University of Technology, 2017
+

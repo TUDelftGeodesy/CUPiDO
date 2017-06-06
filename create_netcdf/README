@@ -1,0 +1,29 @@
+CUPiDO - Connecting Undifferenced Points in Deformation Observations
+
+Matlab toolbox for the generation of NetCDF files with the CUPiDO
+schema.
+
+The directory contains five files:
+
+    cupido_write_netcdf.m
+        Function to write a CUPiDO NetCDF file.
+
+    cupido_check_netcdf.m
+        Function to check the content of a CUPiDO NetCDF file.
+
+    cupido_read_netcdf.m
+        Function to read a CUPiDO NetCDF file.
+
+    cupido_read_netcdf2struct.m
+        Function to read a CUPiDO NetCDF file and output to
+        struct array.
+
+    cupido_merge_netcdf.m
+        Function to merge two CUPiDO NetCDF files.
+
+An example on the use of the write function is given in the example
+directory.
+
+(c) Delft University of Technology, 2017
+
+

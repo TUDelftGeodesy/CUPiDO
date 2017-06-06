@@ -1,0 +1,49 @@
+CUPiDO - Connecting Undifferenced Points in Deformation Observations
+
+The CUPiDO conversion tool creates the optimal set of double-difference geodetic
+(GPS and leveling) measurements and its corresponding covariance matrix 
+based on the user input: Period of interest (POI), Region of interest (ROI),
+and technique of interest (TOI). 
+
+The software includes one main function and eight subfunctions:
+   
+    cupido.py (main function)
+        For the detailed description of Inputs/Outputs of cupido.py, see
+            the header of cupido.py.     
+
+    construct_sd2dd_transformation_gps.py
+        This subfunction constructs the single-to-double difference transformation
+        for both leveling and GPS data.
+	
+    construct_sd2dd_transformation.py	
+        This subfunction constructs the single-to-double difference transformation
+        for both leveling and leveling data.
+
+    construct_st_idealization_covmx.py
+        This subfunction constructs the covariance matrix associated with the 
+        spatio-temporally correlated component of idealization noise.
+
+    construct_t_idealization_covmx.py
+        This subfunction constructs the covariance matrix associated with the 
+        temporally correlated component of idealization noise.
+	
+    csv_idealization_reading.py
+        This subfunction reads the idealization noise parameters from the database	     
+	(See the header of 'cupido.py' for more info about the input database).
+
+    csv_polygon_reading.py
+        This subfunction reads the polygon of the ROI.
+
+    netcdf_reading.py
+        This subfunction reads the geodetic observations from the database
+        (See the header of 'cupido.py' for more info about the input database)
+
+    cupido_logging.py
+        Logging subfunction.
+
+For the detailed description of Inputs/Outputs of cupido.py, see the 
+header of cupido.py.  
+
+   
+(c) Delft University of Technology, 2017
+

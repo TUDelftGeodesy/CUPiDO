@@ -1,0 +1,6 @@
+type,class,variance [mm^2/km/year^p] ,range [m],power [-]
+ST,,0.40,4000,1.6
+T,DEFAULT,1.0,,1.9
+T,GPS,0.045,,1.7
+T,LEV,0.090,,1.9
+T,CORS,0.055,,1.8
