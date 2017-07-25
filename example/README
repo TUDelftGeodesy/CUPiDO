@@ -1,20 +1,21 @@
 CUPiDO - Connecting Undifferenced Points in Deformation Observations
 
-This directory contains an example setup to demonstrate the CUPiDO 
-functionality.
+This directory contains an example setup to demonstrate the CUPiDO functionality.
 
-The example can be executed by running two files:
+The example can be executed by running three files:
 
     cupido_example_step1.m
-        Matlab script to simulate data and generate example NetCDF
-        files with leveling and GPS data. The user can change the
+        Matlab script to simulate data and generate example          NetCDF files with leveling and GPS data. The user can change the
         simulation settings in the file.
 
     cupido_example_step2.py
         Python2 script to convert the data in the NetCDF files to
         an optimal set of double-differences. The user can change
-        the selection settings (area of interest, period of interest,
-        technique of interest, etc.)
+        the selection settings (area of interest, period of  interest, technique of interest, etc.)
+
+    cupido_example_step3_example_modeling.m
+        Matlab script to apply the inversion of two parameters of   the Mogi model (i.e. depth and rate of the volume change), by direct search of a user-defined search space. The user can change the simulation and search space settings.   
+
 
 (c) Delft University of Technology, 2017
 
